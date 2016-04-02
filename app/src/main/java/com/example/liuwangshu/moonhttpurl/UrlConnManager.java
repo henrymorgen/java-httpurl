@@ -33,7 +33,7 @@ public class UrlConnManager {
             //设置读取超时时间
             mHttpURLConnection.setReadTimeout(15000);
             //设置请求参数
-            mHttpURLConnection.setRequestMethod("GET");
+            mHttpURLConnection.setRequestMethod("POST");
             //添加Header
             mHttpURLConnection.setRequestProperty("Connection","Keep-Alive");
             //接收输入流
